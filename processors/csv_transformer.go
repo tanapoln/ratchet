@@ -1,8 +1,8 @@
 package processors
 
 import (
-	"github.com/dailyburn/ratchet/data"
-	"github.com/dailyburn/ratchet/util"
+	"github.com/tanapoln/ratchet/data"
+	"github.com/tanapoln/ratchet/util"
 )
 
 // CSVTransformer converts data.JSON objects into a CSV string object
