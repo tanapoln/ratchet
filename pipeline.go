@@ -124,21 +124,13 @@ func (p *Pipeline) runStages(killChan chan error) {
 				// functions are called.
 				logger.Info(p.Name, "- stage", n+1, dp, "waiting to receive data")
 
-				// Store a bunch of channels, so we can wait on their output without messing up the order of operations.
-				exitChans := []chan bool{}
-
 				for d := range dp.inputChan {
 					logger.Info(p.Name, "- stage", n+1, dp, "received data")
 					if p.PrintData {
 						logger.Debug(p.Name, "- stage", n+1, dp, "data =", string(d))
 					}
 					dp.recordDataReceived(d)
-					exitChans = append(exitChans, dp.processData(d, killChan))
-				}
-
-				// Wait until everything is finished before calling dp.Finish.  Since execution happens asynchronously, we may still be waiting on a processData call to return.
-				for i := range exitChans {
-					<-exitChans[i]
+					dp.processData(d, killChan)
 				}
 
 				logger.Info(p.Name, "- stage", n+1, dp, "input closed, calling Finish")
