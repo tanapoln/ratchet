@@ -3,7 +3,7 @@ package processors
 import (
 	"errors"
 
-	bigquery "github.com/dailyburn/bigquery/client"
+	bigquery "github.com/tanapoln/bigquery/client"
 	"github.com/tanapoln/ratchet/data"
 	"github.com/tanapoln/ratchet/logger"
 	"github.com/tanapoln/ratchet/util"
