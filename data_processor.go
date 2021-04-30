@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/tanapoln/ratchet/data"
+	"github.com/tanapoln/ratchet/v2/data"
 )
 
 // DataProcessor is the interface that should be implemented to perform data-related

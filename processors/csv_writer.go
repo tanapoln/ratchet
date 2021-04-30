@@ -3,8 +3,8 @@ package processors
 import (
 	"io"
 
-	"github.com/tanapoln/ratchet/data"
-	"github.com/tanapoln/ratchet/util"
+	"github.com/tanapoln/ratchet/v2/data"
+	"github.com/tanapoln/ratchet/v2/util"
 )
 
 // CSVWriter is handles converting data.JSON objects into CSV format,

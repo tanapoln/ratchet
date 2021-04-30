@@ -3,9 +3,9 @@ package processors
 import (
 	"regexp"
 
-	"github.com/tanapoln/ratchet/data"
-	"github.com/tanapoln/ratchet/logger"
-	"github.com/tanapoln/ratchet/util"
+	"github.com/tanapoln/ratchet/v2/data"
+	"github.com/tanapoln/ratchet/v2/logger"
+	"github.com/tanapoln/ratchet/v2/util"
 )
 
 // RegexpMatcher checks if incoming data matches the given Regexp, and sends

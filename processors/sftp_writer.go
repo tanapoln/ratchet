@@ -3,10 +3,10 @@ package processors
 import (
 	"golang.org/x/crypto/ssh"
 
-	"github.com/tanapoln/ratchet/data"
-	"github.com/tanapoln/ratchet/logger"
-	"github.com/tanapoln/ratchet/util"
 	"github.com/pkg/sftp"
+	"github.com/tanapoln/ratchet/v2/data"
+	"github.com/tanapoln/ratchet/v2/logger"
+	"github.com/tanapoln/ratchet/v2/util"
 )
 
 // SftpWriter is an inline writer to remote sftp server

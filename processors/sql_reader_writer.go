@@ -3,7 +3,7 @@ package processors
 import (
 	"database/sql"
 
-	"github.com/tanapoln/ratchet/data"
+	"github.com/tanapoln/ratchet/v2/data"
 )
 
 // SQLReaderWriter performs both the job of a SQLReader and SQLWriter.

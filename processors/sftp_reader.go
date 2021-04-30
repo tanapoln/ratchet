@@ -1,9 +1,9 @@
 package processors
 
 import (
-	"github.com/tanapoln/ratchet/data"
-	"github.com/tanapoln/ratchet/util"
 	"github.com/pkg/sftp"
+	"github.com/tanapoln/ratchet/v2/data"
+	"github.com/tanapoln/ratchet/v2/util"
 	"golang.org/x/crypto/ssh"
 )
 

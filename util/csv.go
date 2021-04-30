@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/tanapoln/ratchet/data"
+	"github.com/tanapoln/ratchet/v2/data"
 )
 
 // CSVString returns an empty string for nil values to make sure that the

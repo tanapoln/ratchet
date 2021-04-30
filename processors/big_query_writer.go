@@ -2,9 +2,9 @@ package processors
 
 import (
 	bigquery "github.com/tanapoln/bigquery/client"
-	"github.com/tanapoln/ratchet/data"
-	"github.com/tanapoln/ratchet/logger"
-	"github.com/tanapoln/ratchet/util"
+	"github.com/tanapoln/ratchet/v2/data"
+	"github.com/tanapoln/ratchet/v2/logger"
+	"github.com/tanapoln/ratchet/v2/util"
 )
 
 // BigQueryWriter is used to write data to Google's BigQuery. If the table you want to

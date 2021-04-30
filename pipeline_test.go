@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tanapoln/ratchet"
-	"github.com/tanapoln/ratchet/data"
-	"github.com/tanapoln/ratchet/logger"
-	"github.com/tanapoln/ratchet/processors"
+	"github.com/tanapoln/ratchet/v2"
+	"github.com/tanapoln/ratchet/v2/data"
+	"github.com/tanapoln/ratchet/v2/logger"
+	"github.com/tanapoln/ratchet/v2/processors"
 )
 
 // dummyProcessorDuration is the amount of time ProcessData will spend waiting before it returns.

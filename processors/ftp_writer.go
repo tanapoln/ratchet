@@ -3,10 +3,10 @@ package processors
 import (
 	"io"
 
-	"github.com/tanapoln/ratchet/data"
-	"github.com/tanapoln/ratchet/logger"
-	"github.com/tanapoln/ratchet/util"
 	"github.com/jlaffaye/ftp"
+	"github.com/tanapoln/ratchet/v2/data"
+	"github.com/tanapoln/ratchet/v2/logger"
+	"github.com/tanapoln/ratchet/v2/util"
 )
 
 // FtpWriter type represents an ftp writter processor

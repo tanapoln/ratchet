@@ -1,6 +1,6 @@
 package util
 
-import "github.com/tanapoln/ratchet/logger"
+import "github.com/tanapoln/ratchet/v2/logger"
 
 // KillPipelineIfErr is an error-checking helper.
 func KillPipelineIfErr(err error, killChan chan error) {

@@ -4,9 +4,9 @@ import (
 	"errors"
 
 	bigquery "github.com/tanapoln/bigquery/client"
-	"github.com/tanapoln/ratchet/data"
-	"github.com/tanapoln/ratchet/logger"
-	"github.com/tanapoln/ratchet/util"
+	"github.com/tanapoln/ratchet/v2/data"
+	"github.com/tanapoln/ratchet/v2/logger"
+	"github.com/tanapoln/ratchet/v2/util"
 )
 
 // BigQueryReader is used to query data from Google's BigQuery,

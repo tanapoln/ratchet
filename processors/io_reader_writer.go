@@ -3,7 +3,7 @@ package processors
 import (
 	"io"
 
-	"github.com/tanapoln/ratchet/data"
+	"github.com/tanapoln/ratchet/v2/data"
 )
 
 // IoReaderWriter performs both the job of a IoReader and IoWriter.
