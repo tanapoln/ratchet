@@ -1,4 +1,4 @@
-module github.com/tanapoln/ratchet
+module github.com/tanapoln/ratchet/v2
 
 require (
 	github.com/aws/aws-sdk-go v1.1.31
